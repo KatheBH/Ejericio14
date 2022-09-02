@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+}
+.desc {
+    background-color: #1CD1B0;
+    height: 38px;
+    margin: 0%;
+    padding: 10px;
+}
+.Titulo {
+    background-color:#00669F;
+    height: 101px;
+    padding: 35px 10px;
+}
+
+h1 {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    /* border: solid 1px blue; */
+    width: 300px;
+    height: 529px;
+    position: relative;
+    text-align: center;
+    background-color: #F3F3F3 ;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 50px;
+
+}
+.Corazon {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.batman {
+    border-radius: 50%;
+    position: absolute;
+    top: 126px;
+    left: 104px;
+}
+.FondoSuperman 
+{
+    width: 300px;
+}
+
+.Superman {
+    border-radius: 50%;
+    position: absolute;
+    top: 126px;
+    left: 104px;
+    width: 120px;
+}
+.Nombre1 {
+    position: absolute;
+    bottom: 218px;
+    left: 115px;
+    font-family: 'Roboto', sans-serif
+}
+.Parrafo1 {
+    position: absolute;
+    bottom: 115px;
+    font-family: 'Roboto', sans-serif;
+}
+.boton1 {
+    position: absolute;
+    background-color: #00669F;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    bottom: 41px;
+    right: 73px;
+    padding: 15px 40px;
+    border: solid 1px #00669F;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position:relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 140px;
+
+}
+
+footer p { 
+    position:absolute;
+    left: 40%;
+    top: 30%;
+
+}
+
+.Logo {
+    position: absolute;
+    right: 0px;
+}
+    
+.Nombre2 {
+    position: absolute;
+    bottom: 218px;
+    left: 79px;
+    font-family: 'Roboto', sans-serif
+}
+.Nombre3 {
+    position: absolute;
+    bottom: 218px;
+    left: 111px;
+    font-family: 'Roboto', sans-serif
+}
+.Nombre4 {
+    position: absolute;
+    bottom: 218px;
+    left: 111px;
+    font-family: 'Roboto', sans-serif
+}
+
+header {
+    position:fixed;
+    width: 100%;
+    z-index: calc(10);
+}
+    
+
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        justify-self: center;
+        width: 100vw;
+        flex-direction: column;
+        height: 20px;       
+        
+     }
+     .desc {
+        width: 100vw;
+        justify-self: center;
+        height: 10vh;
+     }
+     .Titulo {  
+        width: 100vw;
+     }
+     
+     footer p { 
+        position:absolute;
+        top: 30%;
+        left: 0%;
+    }
+}
+    
+
+
+    
+    
+
+
+
+
+    
+
+
+
+ 
